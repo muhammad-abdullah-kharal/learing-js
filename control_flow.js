@@ -122,8 +122,24 @@ const isuserlogged=true;
 
     // as for eacxh not return any value so thats why we use filter
 
-    const number = [1,2,3,4,5,6,7,8,9];
+//     const number = [1,2,3,4,5,6,7,8,9];
 
-   const even= number.filter((item)=>item%2===0);
+//    const even= number.filter((item)=>item%2===0);
 
-   console.log(even)
+//    console.log(even)
+
+// const number =[1,2,3,4,5,6,7,8,9];
+// const newnums=number.map((item)=>item+10);
+// console.log(newnums);
+
+
+
+
+//       its called chaining of array methods
+
+// const number= [1,2,3,4,5,6,7,8,9];
+
+// let newnumns=number.map((item)=>item*10).map((item)=>item+2).filter((item)=>item>40);
+// console.log(newnumns);
+
+
