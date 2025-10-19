@@ -143,3 +143,37 @@ const isuserlogged=true;
 // console.log(newnumns);
 
 
+
+
+
+//                    reduce method
+// const num=[1,2,3];
+// const sum =num.reduce(function(acc,curtval){
+//     return acc+curtval
+// },0);
+// console.log(sum);
+
+
+
+// const sum =num.reduce((acc,curtval)=>acc+curtval,4);
+// console.log(sum);
+
+
+// const shoppingcart=[
+//     {
+//         itemname:"laptop",
+//         price:30000
+//     },
+//     {
+//         itemname:"phone",
+//         price:20000
+//     },
+//     {
+//         itemname:"tablet",
+//         price:15000
+//     }
+// ]
+
+// const totalbill = shoppingcart.reduce((acc,item)=>item.price+acc,0);
+// console.log(totalbill);
+
